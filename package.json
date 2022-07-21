@@ -1,16 +1,29 @@
 {
-  "name": "server",
-  "version": "1.0.0",
-  "description": "Server for Trvia App",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
-  },
   "dependencies": {
     "axios": "^0.27.2",
     "cors": "^2.8.5",
     "express": "^4.18.1",
     "socket.io": "^4.5.1"
-  }
+  },
+  "name": "test-triviani-backend",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "scripts": {
+    "devStart": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanolds/test-triviani-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanolds/test-triviani-backend/issues"
+  },
+  "homepage": "https://github.com/nathanolds/test-triviani-backend#readme",
+  "description": ""
 }
